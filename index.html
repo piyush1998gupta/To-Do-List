@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do-Task</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+
+<div class="sticky-top p-3 mb-2 bg-light text-dark">
+    <h1 class="text-center font-weight-bold text-dark text-capitalize text"> TO-DO TASK</h1>
+    <div class="container">
+<input type="text" class="form-control input-group mb-3 ml-3 mr-3 " id="task" placeholder="Enter The New Task">
+<input type="submit"  class="btn btn-success btn-lg mt-5 mb-5  mx-auto d-block" id="add" value="ADD">
+    </div>
+
+    <div class="delet">
+        <h4 class="mx-auto d-block" > <span class="text-dark " >Check the items which you want to delete and then Click on  Delete Button to Delete </span></h4>
+        <input type="submit"   class="btn btn-danger btn-lg  float-right mr-4" id="del"  value="DELETE">
+    </div>
+    <h3 class="text-center text-dark mt-5"> The List is :- </h3>
+
+</div>
+
+
+<ol id="list" class="list-group">
+
+</ol>
+
+
+
+
+</body>
+</html>
